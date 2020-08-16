@@ -1,0 +1,47 @@
+.content {
+  background: $vivid-sky-blue;
+  padding: 20px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  textarea {
+    width: 100%;
+    max-height: 500px;
+    border: 0;
+
+    font-size: 20px;
+    padding: 8px 10px 12px 12px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  button {
+    width: 100px;
+    margin: 12px auto 0;
+
+    border: 0;
+    border-radius: 25px;
+
+    background: $opera-mauve;
+    font-family: sans-serif;
+    font-size: 18px;
+
+    &:hover {
+      background: $jazzberry-jam;
+    }
+
+    &:focus {
+      outline: 0;
+    }
+
+    &:active {
+      background: $opera-mauve;
+    }
+  }
+}

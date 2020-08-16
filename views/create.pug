@@ -1,0 +1,13 @@
+extends head
+
+block content
+
+    .content
+
+        form(method='post' action='/create')
+            //- Max content length 255
+            //- Needs to be enforced
+            textarea(name='text')
+            button Save
+
+        .error= error

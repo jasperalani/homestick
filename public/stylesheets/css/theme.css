@@ -1,0 +1,54 @@
+/* SCSS HEX */
+/* SCSS Gradient */
+html body {
+  height: 100vh; }
+
+.title {
+  text-align: center;
+  padding: 25px 0 25px 0;
+  background: #aed4e6ff; }
+  .title h1:hover {
+    cursor: pointer;
+    color: #5c1a1bff; }
+
+.content {
+  background: #1ac8edff;
+  padding: 20px; }
+  .content form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .content textarea {
+    width: 100%;
+    max-height: 500px;
+    border: 0;
+    font-size: 20px;
+    padding: 8px 10px 12px 12px; }
+    .content textarea:focus {
+      outline: none; }
+  .content button {
+    width: 100px;
+    margin: 12px auto 0;
+    border: 0;
+    border-radius: 25px;
+    background: #af7595ff;
+    font-family: sans-serif;
+    font-size: 18px; }
+    .content button:hover {
+      background: #8c2155ff; }
+    .content button:focus {
+      outline: 0; }
+    .content button:active {
+      background: #af7595ff; }
+
+.content.entry {
+  display: flex;
+  flex-direction: column; }
+  .content.entry p.entry {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 12px; }
+    .content.entry p.entry:hover {
+      background: rgba(255, 255, 255, 0.6); }
+  .content.entry button {
+    margin: auto;
+    width: 100px; }

@@ -1,0 +1,19 @@
+.content.entry {
+  display: flex;
+  flex-direction: column;
+
+  p.entry {
+    background: rgba(255, 255, 255, 0.5);
+
+    padding: 12px;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.6);
+    }
+  }
+
+  button {
+    margin: auto;
+    width: 100px;
+  }
+}

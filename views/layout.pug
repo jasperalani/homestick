@@ -1,0 +1,17 @@
+doctype html
+html(lang='en')
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/css/theme.css')
+
+    script(src='/javascripts/jquery-3.5.1.slim.js')
+    script(src='/javascripts/theme.js')
+
+    meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+  body
+    .container
+            .row
+                .col
+                    block head
+                    block content
